@@ -1,0 +1,20 @@
+{
+	"name": "fuelphp/classloader",
+	"description": "DIC/IoC with class aliasing",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "FuelPHP Development Team",
+			"email": "team@fuelphp.com"
+		}
+	],
+	"require": {
+		"php": ">=5.4"
+	},
+	"require-dev": {
+		"codeception/codeception": "~2.0"
+	},
+	"autoload":{
+		"psr-4": {"Fuel\\ClassLoader\\": "src/"}
+	}
+}
