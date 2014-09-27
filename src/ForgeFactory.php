@@ -57,6 +57,12 @@ class ForgeFactory
 		if ($type == 'object')
 		{
 			$type = get_class($identifier);
+
+			// Anoying workaround for HHVM compatibility
+			if (is_callable($identifier))
+			{
+				$type = 'closure';
+			}
 		}
 
 		return $type;
