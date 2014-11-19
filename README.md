@@ -1,6 +1,8 @@
 ClassLoader
 ===========
 
+This package has been discontinued. Please use https://github.com/fuelphp/dependency
+
 [![Build Status](https://travis-ci.org/fuelphp/classloader.svg)](https://travis-ci.org/fuelphp/classloader)
 [![Code Quality](https://scrutinizer-ci.com/g/fuelphp/classloader/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/fuelphp/classloader/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/fuelphp/classloader/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/fuelphp/classloader/?branch=master)
